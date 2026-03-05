@@ -1,0 +1,5 @@
+name: CodeRifts API Governance
+description: Detect breaking API changes in OpenAPI schemas on every pull request
+repository: coderifts/bitbucket-pipe
+maintainer: CodeRifts
+version: 1.0.0
