@@ -59,11 +59,11 @@ pipelines:
           image: curlimages/curl:latest
           script:
             - |
-              curl -sf -X POST https://app.coderifts.com/api/diff \
+              curl -sf -X POST https://app.coderifts.com/api/v1/diff \
                 -H "Authorization: Bearer $CODERIFTS_API_KEY" \
                 -H "Content-Type: application/json" \
-                -d "{\"base\": \"main:api/openapi.yaml\",
-                     \"head\": \"api/openapi.yaml\"}"
+                -d "{\"old_spec\": \"main:api/openapi.yaml\",
+                     \"new_spec\": \"api/openapi.yaml\"}"
 ```
 
 ## Works Everywhere You Code
