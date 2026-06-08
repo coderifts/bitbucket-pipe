@@ -1,5 +1,9 @@
 # CodeRifts Bitbucket Pipe
 
+> ⚠️ **Beta**: This Bitbucket pipe is not yet published to Docker Hub. 
+> For production use, please use the [GitHub App](https://github.com/apps/coderifts) instead.
+
+
 [![License: Proprietary](https://img.shields.io/badge/license-Proprietary-red.svg)](https://coderifts.com/terms/)
 
 Official Bitbucket Pipe for [CodeRifts](https://coderifts.com). Detects breaking API changes on every Pull Request, scores risk, and enforces governance policies.
