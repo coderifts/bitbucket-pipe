@@ -12,6 +12,10 @@ Works with GitHub, GitLab, Bitbucket, and any CI/CD pipeline.
 
 ## Quick Start
 
+> Beta: the `coderifts/bitbucket-pipe` image is not published to Docker Hub yet,
+> so the `pipe:` reference below will not resolve. Until it ships, use the live
+> [REST API](#alternative-rest-api) path below (or the GitHub App).
+
 ```yaml
 pipelines:
   pull-requests:
